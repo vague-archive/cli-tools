@@ -1,0 +1,24 @@
+[package]
+name = "ktx2_wrapper"
+version = "1.1.0"
+edition = "2021"
+
+[dependencies]
+autocxx = "0.27"
+cxx = "1.0"
+lazy-regex = "3.3"
+num-traits = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_with = "1.6"
+strum = { version = "0.26.3", features = ["derive"] }
+zune-core = "0.4"
+zune-jpeg = "0.4"
+zune-png = "0.4"
+
+shared_types = { path = "../shared_types" }
+
+[build-dependencies]
+autocxx-build = "0.27"
+cmake = "0.1"
+cfg-if = "1.0"
+miette = { version = "5", features = ["fancy"] }

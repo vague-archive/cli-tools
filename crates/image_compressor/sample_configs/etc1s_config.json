@@ -1,0 +1,20 @@
+{
+    "from_directory": "/path/to/you/compression_config.json",
+    "ignore_list": [
+        "favicon.png",
+        "character"
+    ],
+    "number_of_threads": 8,
+    "compression_container": "KTX",
+    "skip_errors": true,
+    "verbose": true,
+    "compression_config": {
+        "config_type": "BasisUniversalBasisLZETC1s",
+        "config": {
+            "BasisUniversalBasisLZETC1s": {
+                "thread_count": 4,
+                "compression_level": 4
+            }
+        }
+    }
+}
